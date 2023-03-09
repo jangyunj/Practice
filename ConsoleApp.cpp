@@ -14,6 +14,10 @@ int main() {
 	double stateTax = sales * stateTaxRate;
 	cout << "State tax: $" << stateTax << endl;
 
+	const double countyTaxRate = .02;
+	double countyTax = sales * countyTaxRate;
+	cout << "County tax: $" << countyTax << endl;
+
 
 	//int sales = 95000;
 	//int stateTax = 0.04;
